@@ -1,9 +1,116 @@
 /******************************************************************************
+o/p:
+Enter name and prn no. of president :
+a
+1
+Enter name and prn no. of secretary :
+b
+2
+Enter choice:
+1.insert member
+2.delete member
+3.delete president
+4.delete secretary
+5.count no. of nodes:
+6.reverse the link
+7.display
+8.exit
+1
+Enter name and prn no. of member :
+c
+3
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
+Do you want to continue?
+1
+Enter choice:
+1.insert member
+2.delete member
+3.delete president
+4.delete secretary
+5.count no. of nodes:
+6.reverse the link
+7.display
+8.exit
+d 1
+Enter name and prn no. of member :
+d 4
+4
 
+Do you want to continue?
+1
+Enter choice:
+1.insert member
+2.delete member
+3.delete president
+4.delete secretary
+5.count no. of nodes:
+6.reverse the link
+7.display
+8.exit
+5
+Total nodes are: 4
+Do you want to continue?
+1
+Enter choice:
+1.insert member
+2.delete member
+3.delete president
+4.delete secretary
+5.count no. of nodes:
+6.reverse the link
+7.display
+8.exit
+7
+Name : a	 PRN : 1
+Name : d	 PRN : 4
+Name : c	 PRN : 3
+Name : b	 PRN : 2
+
+Do you want to continue?
+1
+Enter choice:
+1.insert member
+2.delete member
+3.delete president
+4.delete secretary
+5.count no. of nodes:
+6.reverse the link
+7.display
+8.exit
+3
+
+Do you want to continue?
+1
+Enter choice:
+1.insert member
+2.delete member
+3.delete president
+4.delete secretary
+5.count no. of nodes:
+6.reverse the link
+7.display
+8.exit
+7
+Name : d	 PRN : 4
+Name : c	 PRN : 3
+Name : b	 PRN : 2
+
+Do you want to continue?
+1
+Enter choice:
+1.insert member
+2.delete member
+3.delete president
+4.delete secretary
+5.count no. of nodes:
+6.reverse the link
+7.display
+8.exit
+8
+wrong choice
+
+Do you want to continue?
+0
 *******************************************************************************/
 
 #include <stdio.h>
@@ -174,7 +281,7 @@ void count(struct abc *head)
         i++;
         temp = temp->next;
     }
-    printf("Count of nodes are: %d",i);
+    printf("Total nodes are: %d",i);
 }
 void display(struct abc *head)
 {
